@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* green: #00D200 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: green;
+  height: 100%;
+}
+
+.main {
+  background-color: pink;
+  display: inline-block;
+  float: none;
+  width: 60%;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: yellow;
+  display: inline-block;
+  float: none;
+  width: 40%;
+  height: 100%;
+}
+
+.neon {
+  color: #00d200;
+  text-decoration: none;
+}
+
+.register {
+  text-transform: uppercase;
+}
