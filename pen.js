@@ -1,4 +1,6 @@
-
+const message = 'PERFORMATIVE CALLIGRAPHIES';
+const messageX = 950;
+const messageY = 500;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -10,11 +12,15 @@ function setup() {
 function draw() {
   //Line from prev pt to current pt of mouse position
   line(mouseX, mouseY, pmouseX, pmouseY);
-  text('PERFORMATIVE CALLIGRAPHIES', 950, 500); 
+  text(message, messageX, messageY); 
   textSize(80);
   textAlign(CENTER);
 }
 
+function mouseClicked() {
+  if (isMouseInsideText(message, messageX, messageY)) {
+  }
+}
 
 //listen when click the mouse
 function mouseClicked() {
