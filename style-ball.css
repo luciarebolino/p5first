@@ -54,6 +54,8 @@ button
 .flex3 { 
   display: flex; 
   justify-content: space-between; 
+  margin-left: 18%;
+  margin-right: 18%;
 } 
 
 
